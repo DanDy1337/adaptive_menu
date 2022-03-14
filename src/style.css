@@ -247,7 +247,7 @@ a {
 @media(max-width: 819px) {
   h1 {
     position: relative;
-    left: 100%;
+    left: 110%;
     transition: 4s;
   }
   .LSTDiv{
@@ -262,6 +262,9 @@ a {
   }
 }
 @media (max-width: 356px){
+  h1{
+    display: none;
+  }
   .MobM0_act{
     height: 75%;
   }
