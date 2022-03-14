@@ -101,11 +101,11 @@ export default function LastBodyMobile(){
                     </div>
                 </div>
                 <div tabIndex={4} className={Menu3} onClick={()=> change(3)}>
-                    <p style="
-                        height: 46px;
-                        margin-top: 0px;
-                        margin-bottom: 0px;
-                    ">Контакты</p>
+                    <p style={{
+                        height: '46px',
+                        marginTop: '0px',
+                        marginBottom: '0px'
+                    }}>Контакты</p>
                 <img src={slider}></img>
                     <div>
                         <li style={{fontSize: '17px',fontWeight: 'bolder',marginBottom:'16px'}}>0 800 555 35 35</li>
