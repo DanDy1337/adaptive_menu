@@ -71,8 +71,8 @@ export default function LastBodyMobile(){
 
     return(
         <div className='BGDiv' style={{height: height + 'px'}}>
-            <div className="LastBodyMobile" tabIndex={1}>
-                <div tabIndex={1} className={Menu0} onClick={()=> change(0)}><p>Каталог товаров</p><img src={slider}></img>
+            <div className="LastBodyMobile" >
+                <div className={Menu0} onClick={()=> change(0)}><p>Каталог товаров</p><img src={slider}></img>
                     <div className="MB0">
                         <a to='/ERROR'>Товары Для Коней</a>
                         <a to='/ERROR'>Товары для Пони </a>
@@ -82,7 +82,7 @@ export default function LastBodyMobile(){
                         <a to='/ERROR'>Товары для Настоящих Мужчин </a>
                     </div>
                 </div>
-                <div tabIndex={2} className={Menu1} onClick={()=> change(1)}><p>Клиентам</p><img src={slider}></img>
+                <div className={Menu1} onClick={()=> change(1)}><p>Клиентам</p><img src={slider}></img>
                     <div>
                         <a to='/ERROR'>Доставка</a>
                         <a to='/ERROR'>Возврат и обмен </a>
@@ -92,7 +92,7 @@ export default function LastBodyMobile(){
                         <a to='/ERROR'>Бонусная Программа </a>
                     </div>
                 </div>
-                <div tabIndex={3} className={Menu2} onClick={()=> change(2)}><p>Полезное</p><img src={slider}></img>
+                <div className={Menu2} onClick={()=> change(2)}><p>Полезное</p><img src={slider}></img>
                     <div>
                         <a to='/ERROR'>Договор общественной оферты </a>
                         <a to='/ERROR'>Политика Конфиденциальности </a>
@@ -100,7 +100,7 @@ export default function LastBodyMobile(){
                         <a to='/ERROR'>Карта Сайта </a>
                     </div>
                 </div>
-                <div tabIndex={4} className={Menu3} onClick={()=> change(3)}>
+                <div className={Menu3} onClick={()=> change(3)}>
                     <p style={{
                         height: '46px',
                         marginTop: '0px',
