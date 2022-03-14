@@ -106,7 +106,7 @@ export default function LastBodyMobile(){
                         marginTop: '0px',
                         marginBottom: '0px'
                     }}>Контакты</p>
-                <img src={slider}></img>
+                <img src={slider} style={{margin:'0px'}}></img>
                     <div>
                         <li style={{fontSize: '17px',fontWeight: 'bolder',marginBottom:'16px'}}>0 800 555 35 35</li>
                         <li style={{color: 'gray',fontSize:'13px'}}>Бесплатно по Украине</li>
