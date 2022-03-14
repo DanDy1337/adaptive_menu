@@ -100,7 +100,13 @@ export default function LastBodyMobile(){
                         <a to='/ERROR'>Карта Сайта </a>
                     </div>
                 </div>
-                <div tabIndex={4} className={Menu3} onClick={()=> change(3)}><p>Контакты</p><img src={slider}></img>
+                <div tabIndex={4} className={Menu3} onClick={()=> change(3)}>
+                    <p style="
+                        height: 46px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    ">Контакты</p>
+                <img src={slider}></img>
                     <div>
                         <li style={{fontSize: '17px',fontWeight: 'bolder',marginBottom:'16px'}}>0 800 555 35 35</li>
                         <li style={{color: 'gray',fontSize:'13px'}}>Бесплатно по Украине</li>
